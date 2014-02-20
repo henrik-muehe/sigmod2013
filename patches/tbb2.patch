@@ -1,0 +1,8 @@
+diff -Naur old/defines.hpp tbb41_20130116oss/defines.hpp
+--- old/defines.hpp	2013-03-13 14:25:45.000000000 +0100
++++ tbb41_20130116oss/defines.hpp	2013-03-13 14:32:18.000000000 +0100
+@@ -1,3 +1,4 @@
++#pragma GCC diagnostic ignored "-Wparentheses"
+ #define DO_ITT_NOTIFY 1
+ #define USE_PTHREAD 1
+ #define __TBB_BUILD 1
